@@ -7,14 +7,14 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "NZGCDTimeer"
+  s.name             = "NZGCDTimer"
   s.version          = "0.0.1"
   s.summary          = "测试1"
   s.description      = "一个gcd创建timer的方法"
-  s.homepage         = "https://github.com/noai966669/NZGCDTimer.git"
+  s.homepage         = "https://github.com/ai966669/NZGCDTimer.git"
   s.license          = 'MIT'
   s.author           = { "ai966669" => "578172874@qq.com" }
-  s.source           = { :git => "https://github.com/noai966669/NZGCDTimer.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/ai966669/NZGCDTimer.git", :tag => s.version.to_s }
   s.platform     = :ios, '8.0'
   s.requires_arc = true
   s.source_files = 'Pod/NZGCDTimer/**/*'
